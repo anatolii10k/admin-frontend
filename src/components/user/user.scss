@@ -1,0 +1,20 @@
+.user {
+    padding: 3% 5% 0% 5%;
+    background-color: #F1F5F7;
+    .sc-fnVZcZ.cDmETx.rdt_TableHeader {
+        background-color: #F1F5F7;
+        font-size: 25px;
+    }
+    height: 95vh;
+}
+
+.rdt_TableCol{
+    font-size: 17px !important;
+}
+
+@media only screen and (max-width: 1023px) {
+    .user{
+        padding: 3% 3% 0% 3%;
+        height: 95vh;
+    }
+}

@@ -1,0 +1,49 @@
+nav.navbar.navbar-expand-lg.navbar-light {
+    background-color: #3390EC;
+    a.navbar-brand {
+        color: #ffffff !important;
+    }
+}
+#headerBar{
+    display: flex;
+    padding: 13px 9px;
+    height: 55px;
+    .searchBar{
+        flex: 1;
+        input[type="text"] {
+            border-radius: 50px;
+            border: none;
+            padding: 5px 19px;
+        }
+        button {
+            background-color: inherit;
+            border: none;
+            color: black;
+            margin-left: -34px;
+        }
+    }
+    .profileDropDown{
+        display: contents;
+        button#dropdownMenuButton {
+            padding: 4px;
+            background-color: #3390EC;
+            border: none;
+            border-radius: 0px;
+        }
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+    #headerBar {
+        padding: 10px 9px;
+    }
+}
+
+@media only screen and (max-width: 777px) {
+    #headerBar {
+        .searchBar input[type="text"] {
+            width: 96%;
+        }
+    }
+}
+

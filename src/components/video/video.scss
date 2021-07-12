@@ -1,0 +1,97 @@
+.videos{
+    padding: 3% 5% 0% 5%;
+    background-color: #F1F5F7;
+    .sc-fnVZcZ.cDmETx.rdt_TableHeader {
+        background-color: #F1F5F7;
+        // font-size: 25px;
+    }
+    .actionButtons{
+        width: 100%;
+        display: flex;
+        //for mobile give flex-direction: column;
+    }
+    height: 95vh;
+    .editButton{
+        // width: -webkit-fill-available;
+        margin: 4% 0%;
+        border: none;
+        background-color: #00FF00;
+        padding: 4px 12px;
+        font-weight: 600;
+        border-radius: 5px;
+        margin-right: 3%;
+        color: #fff;
+    }
+    .deleteButton{
+        // width: -webkit-fill-available;
+        margin: 4% 0%;
+        border: none;
+        background-color: red;
+        padding: 4px 12px;
+        font-weight: 600;
+        border-radius: 5px;
+        color: #fff;
+    }
+    img{
+        padding: 5px;
+    }
+    .rdt_TableCol{
+        font-size: 17px !important;
+    }
+    .createButton{
+        background-color: #00FF00;
+        float: right;
+        color: #fff;
+        padding: 8px 25px;
+        border: none;
+        border-radius: 5px;
+    }
+}
+
+.headingForm{
+    margin: 2% 0% 0% 12%;
+    text-decoration: underline;
+    font-style: italic;
+}
+.videosForm{
+    margin: 2% auto;
+    width: 40%;
+    form {
+        .videoDetailsForm{
+            .eachRow {
+                margin-bottom: 3%;
+            }
+            .submitButton{
+                font-size: 18px;
+                background-color: blue;
+                padding: 8px 25px;
+                color: #fff;
+                border: solid 2px;
+                border-radius: 5px;
+            }
+        }
+    }   
+}
+
+.sc-bdnxRM.ecDzaP.rdt_Table {
+    // height: 100vh;
+    // overflow-x: hidden;
+    // overflow-y: auto;
+}
+
+@media only screen and (max-width: 1263px) {
+    .videos{
+        height: auto;
+        padding: 3% 5% 0% 5%;
+        .actionButtons{
+            flex-direction: column;
+        }
+    }
+    .videosForm{
+        width: 90%;
+    }
+    .headingForm {
+        margin: 2% 0% 0% 0% !important;
+        padding: 10px 20px !important;
+    }
+}
